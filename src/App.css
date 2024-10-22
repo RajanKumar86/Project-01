@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 5px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  height: 72px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.headerContent {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.main {
+  font-family: "Poppins", sans-serif;
+  height: calc(100vh-72px);
+}
+
+.body-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentpart h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+.contentpart p {
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.buttons01 {
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
+}
+
+.second-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
+.Shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.contentpart {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
